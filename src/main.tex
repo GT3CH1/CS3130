@@ -1,0 +1,34 @@
+%! Author = gcpease
+%! Date = 4/27/21
+
+% Preamble
+\documentclass[fleqn]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{paracol}
+
+% Document
+\begin{document}
+    \section{Basic Probability}\label{sec:basic-probability}
+    \begin{fleqn}
+            $
+            P(A \cup B) = P(A)+P(B)-P(A\capB) \newline
+            P(A \cap B) = P(A)P(B)  \newline
+            P(A^c) = 1-P(A) \newline
+            $
+        \end{fleqn}
+    \section{Conditional Prob. \& Bayes}\label{sec:conditional-prob.-\&-bayes}
+    \begin{fleqn}
+            $
+            P(A|B) = \frac{P(A\cap B)}{P(B)} \newline
+            P(B|A) = P(A|B)\cdot \frac{P(B)}{P(A)} \newline
+            $
+        \end{fleqn}
+    \section{Binomial Dist.}\label{sec:binomial-dist.}
+    \begin{fleqn}
+        $
+        \frac{n!}{k!(n-k)!} \cdot p^k (1-p)^(n-k) \equiv (^n_k)\cdot p^k (1-p)^(n-k)\newline
+        $
+    \end{fleqn}
+\end{document}
